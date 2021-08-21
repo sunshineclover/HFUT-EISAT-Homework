@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>551</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'楷体'; font-size:14pt;&quot;&gt;第三题：根据一部动画片，分析与其最相似的动画片&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeRecommendationGraph1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>看过CLAS还推荐的动画</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeIndexSituation1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>根据CLAS标签的推荐情况</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeSituation1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>根据CLAS评论的推荐情况</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeRecommendationGraph2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>看过摇曳露营还推荐的动画</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeCommentSituation1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>350</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>对应数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeIndexDict1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>230</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>对应数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeRecommendationExcel2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>170</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>对应数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeRecommendationExcel1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>110</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>对应数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeIndexSituation2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>根据摇曳露营标签的推荐情况</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeIndexDict2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>290</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>对应数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeCommentSituation2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>410</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>对应数据</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AnimeSituation2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>410</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>根据摇曳露营评论的推荐情况</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Comparison">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>摇曳露营与CLAS两部动画的推荐比较</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>960</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
